@@ -1,0 +1,13 @@
+[
+  {{- range $index, $page := .Site.AllPages -}}
+  {{- if and $index (not .Params.noindex) -}}
+    {{- if $index -}}, {{- end -}}
+    {
+      "title": {{ .Title | jsonify }},
+      "permalink": {{ .Permalink | jsonify }},
+      "contents": {{ .Plain | jsonify }},
+      "section": {{ .Section | jsonify }}
+    }
+  {{- end -}}
+  {{- end -}}
+]

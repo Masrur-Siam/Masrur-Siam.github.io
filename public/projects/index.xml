@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Masrur Siam</title>
+    <link>http://localhost:1313/projects/</link>
+    <description>Recent content in Projects on Masrur Siam</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 08 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>QShare - Privacy SaaS</title>
+      <link>http://localhost:1313/projects/qshare/</link>
+      <pubDate>Fri, 08 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/qshare/</guid>
+      <description>&lt;h3 id=&#34;key-highlights&#34;&gt;Key Highlights&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;[cite_start]&lt;strong&gt;Auto-Purge:&lt;/strong&gt; Powered by Supabase Edge Functions to clean storage every 5 minutes. [cite: 39]&lt;/li&gt;&#xA;&lt;li&gt;[cite_start]&lt;strong&gt;QR Integration:&lt;/strong&gt; Seamless mobile-to-desktop sharing. [cite: 40]&lt;/li&gt;&#xA;&lt;li&gt;[cite_start]&lt;strong&gt;Zero-Footprint:&lt;/strong&gt; Maintains clean server environment by deleting expired assets. [cite: 39, 40]&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>CalcHubBD - Pro Suite</title>
+      <link>http://localhost:1313/projects/calchub/</link>
+      <pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/calchub/</guid>
+      <description>&lt;h3 id=&#34;features&#34;&gt;Features&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;[cite_start]&lt;strong&gt;60+ Specialized Tools:&lt;/strong&gt; Covering Financial, Business, Student, and Health categories. [cite: 42]&lt;/li&gt;&#xA;&lt;li&gt;[cite_start]&lt;strong&gt;Localized Logic:&lt;/strong&gt; Optimized for regional (BD) standards. [cite: 42]&lt;/li&gt;&#xA;&lt;li&gt;[cite_start]&lt;strong&gt;Smart Search:&lt;/strong&gt; Instant tool discovery via global search bar. [cite: 42]&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>ShopMaster SaaS</title>
+      <link>http://localhost:1313/projects/shopmaster/</link>
+      <pubDate>Fri, 20 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/shopmaster/</guid>
+      <description>&lt;h3 id=&#34;business-logic&#34;&gt;Business Logic&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;[cite_start]&lt;strong&gt;Multi-Tenant Architecture:&lt;/strong&gt; Secure private data silos for each user. [cite: 54, 55]&lt;/li&gt;&#xA;&lt;li&gt;[cite_start]&lt;strong&gt;Real-time Dashboard:&lt;/strong&gt; Tracking revenue, inventory volume, and sales logs. [cite: 56, 57]&lt;/li&gt;&#xA;&lt;li&gt;[cite_start]&lt;strong&gt;Smart Billing:&lt;/strong&gt; Automatic stock deduction upon transaction. [cite: 56]&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+  </channel>
+</rss>

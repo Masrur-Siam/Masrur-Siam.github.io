@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Supabase on Masrur Siam</title>
+    <link>http://localhost:1313/tags/supabase/</link>
+    <description>Recent content in Supabase on Masrur Siam</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 08 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/supabase/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>QShare - Privacy SaaS</title>
+      <link>http://localhost:1313/projects/qshare/</link>
+      <pubDate>Fri, 08 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/qshare/</guid>
+      <description>&lt;h3 id=&#34;key-highlights&#34;&gt;Key Highlights&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;[cite_start]&lt;strong&gt;Auto-Purge:&lt;/strong&gt; Powered by Supabase Edge Functions to clean storage every 5 minutes. [cite: 39]&lt;/li&gt;&#xA;&lt;li&gt;[cite_start]&lt;strong&gt;QR Integration:&lt;/strong&gt; Seamless mobile-to-desktop sharing. [cite: 40]&lt;/li&gt;&#xA;&lt;li&gt;[cite_start]&lt;strong&gt;Zero-Footprint:&lt;/strong&gt; Maintains clean server environment by deleting expired assets. [cite: 39, 40]&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+  </channel>
+</rss>

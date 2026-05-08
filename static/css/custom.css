@@ -1,0 +1,114 @@
+/* ============================================================
+   🔍 SEARCH MODAL PROFESSIONAL STYLING (Sabbir Sir Style)
+   ============================================================ */
+
+/* 1. Backdrop Overlay - Pura screen dark korar jonno */
+.search-modal {
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100vw !important;
+    height: 100vh !important;
+    background: rgba(15, 23, 42, 0.9) !important; /* Semi-transparent Slate Dark */
+    z-index: 999999 !important; /* Shobar upore thakbe */
+    display: none; /* JavaScript control korbe display: flex */
+    justify-content: center !important;
+    align-items: flex-start !important;
+    padding-top: 10vh !important;
+    backdrop-filter: blur(4px); /* Background ektu jhapsha korbe professional looker jonno */
+}
+
+/* 2. Main Search Box Container */
+.search-container {
+    background: #ffffff !important;
+    width: 90% !important;
+    max-width: 650px !important;
+    border-radius: 14px !important;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.6) !important;
+    overflow: hidden !important;
+    font-family: 'Inter', 'Segoe UI', Tahoma, sans-serif !important;
+    animation: slideDown 0.3s ease-out; /* Niche namar ekti chotto animation */
+}
+
+/* 3. Search Input Field */
+#search-input {
+    width: 100% !important;
+    padding: 20px 25px !important;
+    border: none !important;
+    font-size: 1.25rem !important;
+    outline: none !important;
+    color: #1e293b !important;
+    background: #ffffff !important;
+    border-bottom: 1px solid #f1f5f9 !important;
+}
+
+#search-input::placeholder {
+    color: #94a3b8 !important;
+}
+
+/* 4. Results List Area */
+#search-results {
+    list-style: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    max-height: 450px !important;
+    overflow-y: auto !important;
+    background: #ffffff !important;
+}
+
+#search-results li {
+    padding: 15px 25px !important;
+    border-bottom: 1px solid #f8fafc !important;
+    transition: all 0.2s ease !important;
+}
+
+#search-results li a {
+    text-decoration: none !important;
+    color: #334155 !important;
+    font-weight: 500 !important;
+    display: block !important;
+}
+
+/* Arrow Key Navigation Highlight */
+#search-results li.selected {
+    background-color: #f0f9ff !important;
+    border-left: 5px solid #0ea5e9 !important;
+}
+
+#search-results li.selected a {
+    color: #0ea5e9 !important;
+}
+
+/* 5. Footer / Key Legends */
+.search-footer {
+    padding: 12px 25px !important;
+    background: #f8fafc !important;
+    border-top: 1px solid #f1f5f9 !important;
+    font-size: 0.85rem !important;
+    color: #64748b !important;
+    display: flex !important;
+    justify-content: space-between !important;
+}
+
+.search-footer kbd {
+    background: #e2e8f0 !important;
+    color: #475569 !important;
+    padding: 2px 6px !important;
+    border-radius: 4px !important;
+    font-size: 0.75rem !important;
+    border: 1px solid #cbd5e1 !important;
+    font-weight: bold !important;
+}
+
+/* 6. Animations */
+@keyframes slideDown {
+    from { transform: translateY(-20px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+/* 7. Mobile Optimization */
+@media (max-width: 600px) {
+    .search-modal { padding-top: 5vh !important; }
+    .search-container { width: 95% !important; border-radius: 0 !important; }
+    #search-input { font-size: 1rem !important; }
+}
