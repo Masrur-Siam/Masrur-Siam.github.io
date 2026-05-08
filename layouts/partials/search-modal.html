@@ -1,0 +1,19 @@
+<div id="search-overlay" class="search-modal" style="display:none;">
+  <div class="search-container">
+    <div class="search-header">
+      <input type="text" id="search-input" placeholder="Search projects, posts..." autocomplete="off">
+      <span class="close-search" onclick="closeSearch()">×</span>
+    </div>
+    <div class="search-categories">
+      <button class="cat-btn active" data-filter="all">All</button>
+      <button class="cat-btn" data-filter="projects">Projects</button>
+      <button class="cat-btn" data-filter="writing">Writing</button>
+    </div>
+    <ul id="search-results"></ul>
+    <div class="search-footer">
+      <span><kbd>↑↓</kbd> Navigate</span>
+      <span><kbd>Enter</kbd> Open</span>
+      <span><kbd>Esc</kbd> Close</span>
+    </div>
+  </div>
+</div>

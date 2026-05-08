@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MySQL on Masrur Siam</title>
+    <link>http://localhost:1313/tags/mysql/</link>
+    <description>Recent content in MySQL on Masrur Siam</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 20 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/mysql/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ShopMaster SaaS</title>
+      <link>http://localhost:1313/projects/shopmaster/</link>
+      <pubDate>Fri, 20 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/shopmaster/</guid>
+      <description>&lt;h3 id=&#34;business-logic&#34;&gt;Business Logic&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;[cite_start]&lt;strong&gt;Multi-Tenant Architecture:&lt;/strong&gt; Secure private data silos for each user. [cite: 54, 55]&lt;/li&gt;&#xA;&lt;li&gt;[cite_start]&lt;strong&gt;Real-time Dashboard:&lt;/strong&gt; Tracking revenue, inventory volume, and sales logs. [cite: 56, 57]&lt;/li&gt;&#xA;&lt;li&gt;[cite_start]&lt;strong&gt;Smart Billing:&lt;/strong&gt; Automatic stock deduction upon transaction. [cite: 56]&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+  </channel>
+</rss>
