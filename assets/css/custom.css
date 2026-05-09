@@ -1,0 +1,5 @@
+/* Navbar theke specific "Featured Projects" link hide kora */
+.navbar-nav .nav-link[href$="#projects"], 
+.navbar-nav .nav-item:contains("Featured Projects") {
+    display: none !important;
+}

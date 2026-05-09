@@ -1,89 +1,99 @@
 baseURL = "https://masrur-siam.github.io/"
-title = "Masrur Siam"
+title = "Masrur Hossain Siam | Software Developer"
 theme = "hugo-profile"
 
 [params]
-    # Header Branding
+    # --- Site Branding ---
     title = "Masrur Siam"
-    name = "Masrur Siam"
-    description = "Building scalable SaaS solutions and high-performance mobile apps."
-   disablePageInfo = true
+    name = "Masrur Hossain Siam"
+    description = "Building Scalable SaaS, Mobile Apps, and AI Workflows."
+    favicon = "images/avatar.jpg"
+    
+    # --- Global Configuration ---
+    disableThemeCredit = true
+    disablePageInfo = true
     disableReadingTime = true
+    themeMode = "dark" 
     customCSS = ["css/custom.css"]
-    customJS = ["js/search.js"]
 
-    # Hero Section (Image & Bio)
+    # --- Hero Section ---
     [params.hero]
         enable = true
         title = "Hi, I am Masrur Hossain Siam"
-        subtitle = "Mobile & Software Application Developer | Prompt Engineer"
-        content = "I specialize in building high-performance mobile apps with Java and Kotlin, and I am an expert in structuring AI workflows through advanced Prompt Engineering."
+        subtitle = "Android & SaaS Expert | Prompt Engineer"
+        content = "Architecting high-performance mobile ecosystems and complex AI-driven SaaS workflows. Focused on bridging technical innovation with real-world usability."
         image = "images/avatar.jpg"
         imageFixed = true 
+        [params.hero.btn]
+            enable = true
+            name = "View Projects"
+            link = "/projects"
 
-    # Contact Details
+    # --- About Section ---
+    [params.about]
+        enable = true
+        title = "About Me"
+        content = "Passionate and self motivated learner with interests in web development, software technology, and digital media. Quick to adapt to new challenges and always eager to improve skills through practical projects and continuous learning."
+
+    # --- Contact Details (Used in Contact Section) ---
     email = "seaimmolla@gmail.com"
-    location = "Bangladesh"
+    location = "Narayanganj, Bangladesh"
     phone = "+8801812497901"
 
-    # Social Icons
-    [[params.social]]
-        icon = "github"
-        link = "https://github.com/masrur-siam"
-    [[params.social]]
-        icon = "linkedin"
-        link = "https://linkedin.com/in/masrur-siam"
-    [[params.social]]
-        icon = "envelope"
-        link = "mailto:seaimmolla@gmail.com"
+    # --- Footer & Social Settings (ERROR FIX) ---
+    # Structure must exactly match the theme's expectation to avoid 'Nil pointer'
+    [params.footer]
+        enable = true
+        showCopyright = true
+        showSocialNetworks = true
+        [params.footer.socialNetworks]
+            github = "https://github.com/masrur-siam"
+            linkedin = "https://linkedin.com/in/masrur-siam"
+            # Onyo social link thakle eivhabe add korte paren
 
-# Certifications Section (With Gallery Support)
+# --- Projects Section ---
+[params.projects]
+    enable = true
+    title = "Featured Projects"
+    maxProjects = 3
+    showMore = true
+
+# --- Certifications ---
 [[params.certificates]]
-    name = "HTML & CSS for Web Development"
-    outline = "Web Development Fundamentals"
+    name = "Web Development Fundamentals"
+    outline = "HTML & CSS"
     icon = "code"
 [[params.certificates]]
     name = "Digital Marketing Essentials"
     outline = "10 Minute School"
     icon = "chart-line"
-[[params.certificates]]
-    name = "Public Speaking & Communication Skills"
-    outline = "10 Minute School"
-    icon = "bullhorn"
-[[params.certificates]]
-    name = "Yoga Training Program"
-    outline = "Quantum Foundation"
-    icon = "spa"
-[[params.certificates]]
-    name = "Psychology Fundamentals"
-    outline = "Quantum Method"
-    icon = "brain"
-[[params.certificates]]
-    name = "Heart Club"
-    outline = "Quantum Method"
-    icon = "heartbeat"
 
-# Navbar Menus
+# --- Navbar Menus (Ultra Clean) ---
+[[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
 [[menu.main]]
     name = "Projects"
     url = "/projects"
-    weight = 1
+    weight = 2
 [[menu.main]]
     name = "Resume"
     url = "/resume"
-    weight = 2
+    weight = 3
 [[menu.main]]
     name = "Contact"
-    url = "/#contact"
-    weight = 3
+    url = "/contact" # Direct page link
+    weight = 4
 
-# Section Visibility
+# --- Home Page Sections ---
 [params.sections]
     hero = true
     about = true
     projects = true
     certificates = true
+    skills = true
     contact = true
 
 [outputs]
-  home = ["HTML", "RSS", "JSON"]    
+    home = ["HTML", "RSS", "JSON"]

@@ -1,86 +1,96 @@
 [,{
       "title": "Edge Functions",
-      "permalink": "http://localhost:1313/tags/edge-functions/",
+      "permalink": "https://masrur-siam.github.io/tags/edge-functions/",
       "contents": "",
       "section": "tags"
     },{
       "title": "Masrur Hossain Siam",
-      "permalink": "http://localhost:1313/",
+      "permalink": "https://masrur-siam.github.io/",
       "contents": "Career Objective [cite_start]To secure a professional role as a Mobile Application Developer or Software Developer where I can apply my technical expertise, contribute to innovative projects, and continue growing as a technology professional while delivering high-quality digital solutions[cite: 89, 90].\nProfessional Summary [cite_start]I am a highly motivated and detail-oriented mobile and software application developer with strong practical skills in Java, Kotlin, and Python[cite: 35, 39]. [cite_start]I have hands-on experience designing, developing, and testing mobile and web-based applications with a focus on usability, performance, and clean logic[cite: 40, 50].\n[cite_start]Alongside development, I am an experienced Prompt Engineer, with a deep understanding of how to structure effective prompts for artificial intelligence systems to achieve accurate and reliable outputs[cite: 41]. [cite_start]I am passionate about continuous learning, problem-solving, and building meaningful digital products that create real-world value[cite: 42].\n",
       "section": ""
     },{
       "title": "Next.js",
-      "permalink": "http://localhost:1313/tags/next.js/",
+      "permalink": "https://masrur-siam.github.io/tags/next.js/",
       "contents": "",
       "section": "tags"
     },{
       "title": "Projects",
-      "permalink": "http://localhost:1313/projects/",
+      "permalink": "https://masrur-siam.github.io/projects/",
       "contents": "",
       "section": "projects"
     },{
       "title": "QShare - Privacy SaaS",
-      "permalink": "http://localhost:1313/projects/qshare/",
-      "contents": "Key Highlights [cite_start]Auto-Purge: Powered by Supabase Edge Functions to clean storage every 5 minutes. [cite: 39] [cite_start]QR Integration: Seamless mobile-to-desktop sharing. [cite: 40] [cite_start]Zero-Footprint: Maintains clean server environment by deleting expired assets. [cite: 39, 40] ",
+      "permalink": "https://masrur-siam.github.io/projects/qshare/",
+      "contents": "Project Overview QShare is a modern, privacy-centric file-sharing solution built for users who prioritize data security. Traditional sharing platforms often leave temporary files on servers indefinitely, posing a long-term privacy risk. QShare solves this with a built-in auto-purge engine, ensuring your files exist only for the duration you intend.\nKey Highlights Automated Self-Destruction: Powered by Supabase Edge Functions, the system runs a background purge engine that scans and permanently deletes expired files every 5 minutes. Seamless QR Integration: Features instant QR code generation to facilitate rapid, contactless file transfers between mobile and desktop devices. Zero-Footprint Environment: By automatically scrubbing expired assets, the platform maintains a clean server environment and ensures no residual data is left behind. Enterprise-Grade Security: Utilizes Supabase Auth and Row Level Security (RLS) to ensure that data is only accessible to authorized recipients during the sharing window. Technical Deep Dive Frontend: Built with Next.js (Server Components) for high-performance rendering and SEO optimization. Backend \u0026amp; Infrastructure: Leverages the Supabase ecosystem for real-time database management and secure cloud storage. Serverless Logic: Employs Deno-based Edge Functions to handle the core purge logic without the need for a dedicated, always-on backend server. Design: Crafted with a sleek, minimalistic dark-themed UI using Tailwind CSS. Use Cases Sensitive Documents: Safely sharing temporary files like National IDs, resumes, or private photos. Quick Cross-Device Transfer: Moving files between a mobile phone and a public PC without the need for logging into email or social media. Draft Deliverables: Freelancers sharing time-sensitive drafts that should expire automatically after client review. Workflow Upload: User uploads a file and sets a custom expiration timer. Generate: The system creates a unique, secure URL and a corresponding QR code. Purge: Once the timer hits zero, the Edge Function triggers an automated deletion, removing the file from both the database and physical storage. ",
       "section": "projects"
     },{
+      "title": "SaaS",
+      "permalink": "https://masrur-siam.github.io/tags/saas/",
+      "contents": "",
+      "section": "tags"
+    },{
       "title": "Supabase",
-      "permalink": "http://localhost:1313/tags/supabase/",
+      "permalink": "https://masrur-siam.github.io/tags/supabase/",
       "contents": "",
       "section": "tags"
     },{
       "title": "Tags",
-      "permalink": "http://localhost:1313/tags/",
+      "permalink": "https://masrur-siam.github.io/tags/",
       "contents": "",
       "section": "tags"
     },{
       "title": "CalcHubBD - Pro Suite",
-      "permalink": "http://localhost:1313/projects/calchub/",
-      "contents": "Features [cite_start]60+ Specialized Tools: Covering Financial, Business, Student, and Health categories. [cite: 42] [cite_start]Localized Logic: Optimized for regional (BD) standards. [cite: 42] [cite_start]Smart Search: Instant tool discovery via global search bar. [cite: 42] ",
+      "permalink": "https://masrur-siam.github.io/projects/calchub/",
+      "contents": "Project Overview CalcHubBD is an all-in-one calculation platform housing over 60 essential tools for both daily life and professional workflows. The platform is uniquely engineered to align with localized Bangladeshi standards, such as specific taxation rules and regional unit conversions, making it a highly relevant tool for the local market.\nCore Features 60+ Specialized Tools: Financial: Advanced Loan EMI calculators, FD/RD return estimators, and localized VAT/Tax calculation engines. Health \u0026amp; Wellness: Tools for tracking BMI, BMR, and daily water intake requirements. Academic: Precise GPA/CGPA calculators and comprehensive unit conversion tools. Business Logic: Professional tools for calculating profit margins, markups, and inventory metrics. Localized Calculation Logic: Beyond global standards, the platform integrates regional currency formats and specific taxation laws applicable in Bangladesh. Smart Global Search: Features an instant-discovery search system to help users find specific tools without navigating through complex menus. Responsive Architecture: Built with Next.js and Tailwind CSS to ensure a seamless, high-performance experience across mobile, tablet, and desktop devices. Technical Stack Frontend: Next.js (App Router) for optimized server-side rendering and high performance. Styling: Tailwind CSS for a modern, utility-first design approach. Deployment: Hosted on Vercel, optimized for lightning-fast loading speeds and global availability. Why I Built This Daily tasks often require switching between multiple apps or websites for simple calculations—whether it\u0026rsquo;s checking a bank loan EMI or a student calculating their GPA. CalcHubBD was created to eliminate this friction by consolidating all these essential tools into a single, high-speed, and reliable platform.\n",
       "section": "projects"
     },{
       "title": "React",
-      "permalink": "http://localhost:1313/tags/react/",
+      "permalink": "https://masrur-siam.github.io/tags/react/",
       "contents": "",
       "section": "tags"
     },{
       "title": "Tailwind CSS",
-      "permalink": "http://localhost:1313/tags/tailwind-css/",
+      "permalink": "https://masrur-siam.github.io/tags/tailwind-css/",
       "contents": "",
       "section": "tags"
     },{
       "title": "JavaScript ES6",
-      "permalink": "http://localhost:1313/tags/javascript-es6/",
+      "permalink": "https://masrur-siam.github.io/tags/javascript-es6/",
       "contents": "",
       "section": "tags"
     },{
       "title": "MySQL",
-      "permalink": "http://localhost:1313/tags/mysql/",
+      "permalink": "https://masrur-siam.github.io/tags/mysql/",
       "contents": "",
       "section": "tags"
     },{
       "title": "PHP 8.x",
-      "permalink": "http://localhost:1313/tags/php-8.x/",
+      "permalink": "https://masrur-siam.github.io/tags/php-8.x/",
       "contents": "",
       "section": "tags"
     },{
       "title": "ShopMaster SaaS",
-      "permalink": "http://localhost:1313/projects/shopmaster/",
-      "contents": "Business Logic [cite_start]Multi-Tenant Architecture: Secure private data silos for each user. [cite: 54, 55] [cite_start]Real-time Dashboard: Tracking revenue, inventory volume, and sales logs. [cite: 56, 57] [cite_start]Smart Billing: Automatic stock deduction upon transaction. [cite: 56] ",
+      "permalink": "https://masrur-siam.github.io/projects/shopmaster/",
+      "contents": "Project Overview ShopMaster SaaS is a high-performance, web-based inventory management system designed specifically for independent retail business owners and small enterprises. Built with a focus on speed, scalability, and usability, it offers a secure multi-tenant environment where every business can manage its operations independently.\nCore Business Logic Multi-Tenant Architecture: Engineered with secure private data silos, ensuring that each shop\u0026rsquo;s data remains strictly isolated. Every business owner gets a personalized dashboard and configuration settings. Real-time Business Intelligence: The dashboard provides instant insights into total revenue, inventory volume, and detailed sales logs, enabling owners to make data-driven decisions quickly. Smart Billing \u0026amp; Stock Sync: Features an automated transaction engine that deducts stock levels in real-time upon every sale and triggers low-stock alerts to prevent inventory shortages. Professional Invoicing: Automatically generates sleek, professional PDF invoices immediately after a transaction is completed. Technical Implementation Backend: Leveraged PHP 8.x to handle complex business logic with optimized performance. Database: Utilized MySQL for relational data integrity, handling multi-tenant queries through efficient indexing. Frontend: Implemented JavaScript ES6 for dynamic inventory updates and an interactive, responsive user experience. Security: Prioritized data safety with robust protection against SQL Injection, XSS, and secure session management. Why This Project Matters ShopMaster is more than just a tool; it is a comprehensive business solution. The implementation of multi-tenancy transforms it into a true Software as a Service (SaaS) model, demonstrating a high level of technical architecture capable of scaling to support thousands of users.\nFuture Roadmap Payment Integration: Connecting local payment gateways for automated billing. Mobile App: Developing a companion app for shop owners to monitor sales on the go. Role-Based Access Control (RBAC): Implementing granular permissions for Admins, Managers, and Sales Staff. ",
       "section": "projects"
     },{
       "title": "Categories",
-      "permalink": "http://localhost:1313/categories/",
+      "permalink": "https://masrur-siam.github.io/categories/",
       "contents": "",
       "section": "categories"
     },{
+      "title": "Contact Me",
+      "permalink": "https://masrur-siam.github.io/contact/",
+      "contents": "I am available for freelance SaaS projects, mobile app development, or any technical collaboration. Feel free to reach out!\n📞 Contact Information Email: seaimmolla@gmail.com Phone: +8801812497901 Location: Narayanganj, Bangladesh 🌐 Social Media LinkedIn GitHub ",
+      "section": ""
+    },{
       "title": "Resume",
-      "permalink": "http://localhost:1313/resume/",
+      "permalink": "https://masrur-siam.github.io/resume/",
       "contents": " Masrur Hossain Siam Mobile \u0026amp; Software Application Developer | SaaS Architect | Prompt Engineer\nEmail: seaimmolla@gmail.com\nLocation: Narayanganj\nPhone: +8801812497901\n🎯 Career Objective To secure a professional role as a Mobile Application Developer or Software Developer where I can apply my technical expertise in building scalable SaaS solutions and high-performance mobile apps. I am dedicated to delivering high-quality digital products that create real-world value through clean logic and innovative design.\n🛠 Core Technical Skills Development \u0026amp; Architecture Mobile Development: Expert-level proficiency in Java and Kotlin for Android. SaaS \u0026amp; Backend: Experienced in building Multi-tenant architectures, PHP (8.x), and Python for automation and backend logic. Modern Web: Designing responsive interfaces with Next.js, React, and Tailwind CSS. Database \u0026amp; Cloud: Proficient in PostgreSQL, MySQL, and Supabase (Storage \u0026amp; Edge Functions). AI \u0026amp; Workflow Optimization Prompt Engineering: Structuring advanced AI workflows, prompt chaining, and refinement for accurate and context-aware outputs. Automation: Leveraging AI tools and Deno scripts for server-side automation and data purging. 🚀 Featured Projects QShare – Privacy-First File Sharing SaaS Engineered an ultra-fast platform where files automatically self-destruct after 5 minutes. Implemented an Auto-Purge Engine using Supabase Edge Functions and Cron jobs. Integrated QR Code systems for seamless cross-device file sharing. CalcHubBD – Pro Suite (60+ Tools) Developed a versatile calculation platform with over 60+ specialized tools for financial, academic, and business needs. Optimized for regional standards (BD market) with a modern, card-based UI/UX. ShopMaster SaaS – Inventory \u0026amp; Sales Logic Built a high-performance inventory management system with secure multi-user access and private data silos. Designed a real-time business intelligence dashboard to track revenue and low-stock alerts. 💼 Professional Experience Independent Software Developer Project Validation: Managing complete application flows from initial idea to final implementation. Full-Stack Implementation: Handling user authentication, API integration, and performance optimization for web and mobile platforms. AI Integration: Using AI models to support development planning, debugging, and advanced content generation. 🎓 Education Bachelor of Science in Computer Science \u0026amp; Engineering Green University of Bangladesh (Currently Studying) Higher Secondary Certificate (HSC) Dania College University (Group: Science) 📜 Certifications \u0026amp; Training Web Development: HTML \u0026amp; CSS for Web Development (Fundamentals). Business \u0026amp; Communication: Public Speaking \u0026amp; Communication Skills (10 Minute School). Marketing: Digital Marketing Essentials (10 Minute School). Personal Development: Yoga Training \u0026amp; Psychology Fundamentals (Quantum Method). 🤝 Volunteer Work \u0026amp; Leadership Community Tech Support: Helping local small businesses digitize their inventory systems. Campus Tech Mentor: Assisting fellow students at Green University of Bangladesh with logic building and mobile app development. Quantum Method Volunteer: Active participant in community well-being and social service programs. 🎯 Strengths \u0026amp; Professional Qualities Analytical Mindset: Strong logical problem-solving skills and attention to detail. Fast Learner: Ability to quickly adapt to new frameworks (e.g., Supabase, Next.js). Self-Discipline: Highly motivated to work independently and manage complex project timelines. ",
       "section": ""
     },{
       "title": "Resume",
-      "permalink": "http://localhost:1313/tags/resume/",
+      "permalink": "https://masrur-siam.github.io/tags/resume/",
       "contents": "",
       "section": "tags"
     }]

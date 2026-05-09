@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>JavaScript ES6 on Masrur Siam</title>
-    <link>http://localhost:1313/tags/javascript-es6/</link>
-    <description>Recent content in JavaScript ES6 on Masrur Siam</description>
+    <title>JavaScript ES6 on Masrur Hossain Siam | Software Developer</title>
+    <link>https://masrur-siam.github.io/tags/javascript-es6/</link>
+    <description>Recent content in JavaScript ES6 on Masrur Hossain Siam | Software Developer</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Fri, 20 Mar 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/javascript-es6/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://masrur-siam.github.io/tags/javascript-es6/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ShopMaster SaaS</title>
-      <link>http://localhost:1313/projects/shopmaster/</link>
+      <link>https://masrur-siam.github.io/projects/shopmaster/</link>
       <pubDate>Fri, 20 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/shopmaster/</guid>
-      <description>&lt;h3 id=&#34;business-logic&#34;&gt;Business Logic&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;[cite_start]&lt;strong&gt;Multi-Tenant Architecture:&lt;/strong&gt; Secure private data silos for each user. [cite: 54, 55]&lt;/li&gt;&#xA;&lt;li&gt;[cite_start]&lt;strong&gt;Real-time Dashboard:&lt;/strong&gt; Tracking revenue, inventory volume, and sales logs. [cite: 56, 57]&lt;/li&gt;&#xA;&lt;li&gt;[cite_start]&lt;strong&gt;Smart Billing:&lt;/strong&gt; Automatic stock deduction upon transaction. [cite: 56]&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+      <guid>https://masrur-siam.github.io/projects/shopmaster/</guid>
+      <description>&lt;h3 id=&#34;project-overview&#34;&gt;Project Overview&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;ShopMaster SaaS&lt;/strong&gt; is a high-performance, web-based inventory management system designed specifically for independent retail business owners and small enterprises. Built with a focus on speed, scalability, and usability, it offers a secure multi-tenant environment where every business can manage its operations independently.&lt;/p&gt;&#xA;&lt;h3 id=&#34;core-business-logic&#34;&gt;Core Business Logic&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Multi-Tenant Architecture:&lt;/strong&gt; Engineered with secure private data silos, ensuring that each shop&amp;rsquo;s data remains strictly isolated. Every business owner gets a personalized dashboard and configuration settings.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Real-time Business Intelligence:&lt;/strong&gt; The dashboard provides instant insights into total revenue, inventory volume, and detailed sales logs, enabling owners to make data-driven decisions quickly.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Smart Billing &amp;amp; Stock Sync:&lt;/strong&gt; Features an automated transaction engine that deducts stock levels in real-time upon every sale and triggers low-stock alerts to prevent inventory shortages.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Professional Invoicing:&lt;/strong&gt; Automatically generates sleek, professional PDF invoices immediately after a transaction is completed.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;technical-implementation&#34;&gt;Technical Implementation&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Backend:&lt;/strong&gt; Leveraged &lt;strong&gt;PHP 8.x&lt;/strong&gt; to handle complex business logic with optimized performance.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Database:&lt;/strong&gt; Utilized &lt;strong&gt;MySQL&lt;/strong&gt; for relational data integrity, handling multi-tenant queries through efficient indexing.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Frontend:&lt;/strong&gt; Implemented &lt;strong&gt;JavaScript ES6&lt;/strong&gt; for dynamic inventory updates and an interactive, responsive user experience.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Security:&lt;/strong&gt; Prioritized data safety with robust protection against SQL Injection, XSS, and secure session management.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;why-this-project-matters&#34;&gt;Why This Project Matters&lt;/h3&gt;&#xA;&lt;p&gt;ShopMaster is more than just a tool; it is a comprehensive business solution. The implementation of multi-tenancy transforms it into a true &lt;strong&gt;Software as a Service (SaaS)&lt;/strong&gt; model, demonstrating a high level of technical architecture capable of scaling to support thousands of users.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
