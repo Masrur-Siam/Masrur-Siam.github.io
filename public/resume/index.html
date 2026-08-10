@@ -2,7 +2,7 @@
 <html lang="en">
 <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=850, initial-scale=0.45, maximum-scale=2.0, user-scalable=yes">
   <title>Resume - Masrur Hossain Siam | Software Developer</title>
   <style>
      
@@ -22,13 +22,15 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      padding: 30px 0;
+      padding: 30px 10px;
+      overflow-x: auto;  
     }
 
      
     .pdf-download-bar {
       text-align: center;
       margin-bottom: 25px;
+      width: 100%;
     }
     .download-btn {
       background-color: #2563eb;
@@ -49,15 +51,16 @@
 
      
     #resume-container {
-      width: 100%;
-      max-width: 820px;
+      width: 820px !important;
+      min-width: 820px !important;
+      margin: 0 auto;
     }
 
      
     .a4-page {
       background: #ffffff;
-      width: 100%;
-      max-width: 820px;
+      width: 820px !important;
+      min-width: 820px !important;
       min-height: 1100px;
       padding: 50px 55px;
       margin-bottom: 35px;
@@ -128,7 +131,6 @@
       color: #0f172a;
     }
     
-     
     p, li {
       font-size: 13.8px !important;
       color: #334155;
@@ -145,11 +147,12 @@
 
      
     .grid-2col {
-      display: flex;
-      gap: 18px;
-      margin: 12px 0;
+      display: flex !important;
+      flex-direction: row !important;
+      gap: 18px !important;
+      margin: 12px 0 !important;
     }
-    .grid-col { flex: 1; }
+    .grid-col { flex: 1 !important; }
     .grid-box {
       background-color: #f8fafc;
       border: 1px solid #e2e8f0;
@@ -369,7 +372,6 @@
 
   <script>
     function downloadVectorPDF() {
-      
       document.title = "Masrur_Hossain_Siam_Resume";
       window.print();
     }
