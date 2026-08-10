@@ -16,24 +16,29 @@ theme = "hugo-profile"
     themeMode = "dark" 
     customCSS = ["css/custom.css"]
 
-    # --- Hero Section ---
-    [params.hero]
-        enable = true
-        title = "Hi, I am Masrur Hossain Siam"
-        subtitle = "Android & SaaS Expert | Prompt Engineer"
-        content = "Architecting high-performance mobile ecosystems and complex AI-driven SaaS workflows. Focused on bridging technical innovation with real-world usability."
-        image = "images/avatar.jpg"
-        imageFixed = true 
-        [params.hero.btn]
-            enable = true
-            name = "View Projects"
-            link = "/projects"
+    # ==========================================
+# HERO SECTION UPDATES
+# ==========================================
+[params.hero]
+  enable = true
+  title = "Hi, I am Masrur Hossain Siam"
+  subtitle = "Full Stack Developer | Software Engineer | SaaS & Mobile App Developer"
+  typewriter = [
+    "Full Stack Software Engineer",
+    "SaaS Architecture & Web Specialist",
+    "Native Android App Developer",
+    "Prompt Engineering & AI Automation"
+  ]
+  description = "Versatile, product-minded Software Engineer specializing in building scalable full-stack web platforms, multi-tenant SaaS applications, and native Android applications with AI-driven workflows."
+  image = "/images/avatar.jpg" # আপনার ছবির সঠিক পাঠ বা ফাইল নাম দিন
 
-    # --- About Section ---
-    [params.about]
-        enable = true
-        title = "About Me"
-        content = "Passionate and self motivated learner with interests in web development, software technology, and digital media. Quick to adapt to new challenges and always eager to improve skills through practical projects and continuous learning."
+    # ==========================================
+# ABOUT ME SECTION UPDATES
+# ==========================================
+[params.about]
+  enable = true
+  title = "About Me"
+  content = "Versatile and product-minded Software Engineer with strong hands-on experience in building full-stack web platforms, multi-tenant SaaS architectures, and native Android applications. Proficient in designing end-to-end system architectures, building secure REST APIs, automated background tasks, and SQL databases. Highly skilled in leverage-based AI workflow automation, advanced prompt engineering, and modern UI/UX design."
 
     # --- Contact Details (Used in Contact Section) ---
     email = "seaimmolla@gmail.com"
