@@ -7,7 +7,7 @@ theme = "hugo-profile"
     title = "Masrur Siam"
     name = "Masrur Hossain Siam"
     description = "Building Scalable SaaS, Mobile Apps, and AI Workflows."
-    favicon = "images/avatar.jpg"
+    favicon = "/images/avatar.jpg"
     
     # --- Global Configuration ---
     disableThemeCredit = true
@@ -57,11 +57,7 @@ theme = "hugo-profile"
             # Onyo social link thakle eivhabe add korte paren
 
 # --- Projects Section ---
-[params.projects]
-    enable = true
-    title = "Featured Projects"
-    maxProjects = 3
-    showMore = true
+
 
 # --- Certifications ---
 [[params.certificates]]
